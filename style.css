@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #EEF0f5;
+  margin: 0;
+}
+
+
+.logo{
+  width: 100px;
+    height: 100px;
+}
+
+.wroom {
+  padding-left: 52px ;
+  color: #00853E
+}
+
+
+
+li,a,button {
+  font-family:"Montserrat" , sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #00853E
+  ;
+  text-decoration: none;
+}
+
+header{
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px  ;
+  
+
+}
+
+
+.logo{
+  cursor: pointer;
+}
+
+
+
+
+
+
+  button{
+    padding: 9px 5px;
+    color: #fff;
+    background-color: #00853E
+    ;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+  }
+
+  button:hover{
+
+    background-color: #027236
+    ;
+  }
+
+
+.login-container 
+{
+  background-color: #fff;
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 10px;
+  
+  color: #111;
+  
+}
+.form-group {
+  margin-bottom: 28px;
+  margin: 25px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.remember-me {
+  display: inline-block;
+  margin-right: 10px;
+  color: #00853E
+}
+.forgot-password {
+  text-align: right;
+  color: #fff;
+}
+.login-button {
+  background-color: #00853E
+  ;
+  color: #fff;
+  border: 0;
+  border-radius: 15px;
+  padding: 0 33px;
+  width: 100%;
+margin: 0;
+font-size: 20px;
+  cursor: pointer;
+  height: 45px;
+  
+}
+@media (max-width: 768px) {
+  .block {
+      flex-basis: 100%; /* Full width on small screens */
+  }
+}
+:root {
+  --bg-color: #fff; /* Background color in light mode */
+  --text-color: #000; /* Text color in light mode */
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+
+
+small{
+  color: #00853E;
+}
+/* Dark Mode Styles */
+[data-theme="dark"] {
+  --bg-color: #333; /* Background color in dark mode */
+  --text-color: #fff; /* Text color in dark mode */
+}
